@@ -1,6 +1,0 @@
-debug
-database dbname=sql_ops
-sql sql_ops.sql
-exe /tmp/webapp
-
-sql_ops

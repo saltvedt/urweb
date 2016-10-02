@@ -1,4 +1,0 @@
-database dbname=test
-sql noisy.sql
-
-noisy

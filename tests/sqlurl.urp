@@ -1,6 +1,0 @@
-database dbname=test
-sql sqlurl.sql
-rewrite url Sqlurl/*
-allow url http://www.google.com/
-
-sqlurl

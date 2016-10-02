@@ -1,7 +1,0 @@
-debug
-database dbname=test
-library grid
-sql grid0.sql
-allow url ../../grid.css
-
-grid0

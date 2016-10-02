@@ -1,5 +1,0 @@
-rewrite all LessSafeFfi/*
-debug
-lessSafeFfi
-
-lessSafeFfi

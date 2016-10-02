@@ -1,5 +1,0 @@
-database dbname=test
-noMangleSql
-sql nomangle.sql
-
-nomangle

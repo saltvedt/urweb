@@ -1,4 +1,0 @@
-database dbname=trydml
-sql trydml.sql
-
-tryDml

@@ -1,5 +1,0 @@
-debug
-sql rpcDO.sql
-database dbname=rpcdo
-
-rpcDO

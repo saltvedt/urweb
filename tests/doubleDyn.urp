@@ -1,4 +1,0 @@
-allow url http://adam.chlipala.net/style.css
-rewrite all DoubleDyn/*
-
-doubleDyn

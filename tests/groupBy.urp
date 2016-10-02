@@ -1,4 +1,0 @@
-rewrite all GroupBy/*
-
-$/list
-groupBy

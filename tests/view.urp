@@ -1,5 +1,0 @@
-debug
-database dbname=view
-sql view.sql
-
-view

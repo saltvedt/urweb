@@ -1,5 +1,0 @@
-debug
-allow url http://localhost/*
-rewrite url Ctextbox/*
-
-ctextbox

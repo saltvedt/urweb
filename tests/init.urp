@@ -1,5 +1,0 @@
-debug
-database dbname=init
-sql init.sql
-
-init

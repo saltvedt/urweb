@@ -1,4 +1,0 @@
-ffi goofy
-rewrite all AttrMangle/*
-
-attrMangle

@@ -1,5 +1,0 @@
-database dbname=test
-sql channelThief.sql
-rewrite url ChannelThief/*
-
-channelThief

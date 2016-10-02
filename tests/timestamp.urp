@@ -1,5 +1,0 @@
-database dbname=test
-dbms mysql
-sql timestamp.sql
-
-timestamp

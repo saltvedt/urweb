@@ -1,4 +1,0 @@
-debug
-library clib
-
-cffi

@@ -1,5 +1,0 @@
-database dbname=test
-sql crud3.sql
-
-crud
-crud3

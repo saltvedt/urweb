@@ -1,0 +1,65 @@
+---
+layout: default
+---
+
+<div class="hero">
+  <p>
+    <b>Ur</b> is a programming language in the tradition of ML and Haskell,
+    but featuring a significantly richer type system.
+  </p>
+
+  <p>
+    It is functional, pure, statically typed, and strict. Ur supports a powerful kind of
+    metaprogramming based on row types.
+  </p>
+
+  <p>
+    <b>Ur/Web</b> is Ur plus a standard library for construction of dynamic web applications backed by SQL databases.
+  </p>
+</div>
+
+<div class="content">
+  <h2>Why use Ur/Web?</h2>
+
+  <h3>Security and Type Safety</h3>
+
+  <p> The signature of the standard library is such that well-typed Ur/Web programs "don't go wrong" in a very broad sense. </p>
+
+  <p>
+  Not only do they not crash during particular page generations, but they also may not:
+  </p>
+
+  <ul>
+    <li>Suffer from any kinds of code-injection attacks</li>
+    <li>Return invalid HTML</li>
+    <li>Contain dead intra-application links</li>
+    <li>Have mismatches between HTML forms and the fields expected by their handlers</li>
+    <li>Include client-side code that makes incorrect assumptions about the "AJAX"-style services that the remote web server provides</li>
+    <li>Attempt invalid SQL queries</li>
+    <li>Use improper marshaling or unmarshaling in communication with SQL databases or between browsers and web servers</li>
+  </ul>
+
+  <p>This type safety is just the foundation of the Ur/Web methodology.</p>
+
+  <h3>Performance</h3>
+
+  <p>The Ur/Web compiler produces very efficient object code that does not use garbage collection. These compiled programs will often be even more efficient than what most programmers would bother to write in C. For example, the standalone web server generated for the demo uses less RAM than the bash shell. The compiler also generates JavaScript versions of client-side code, with no need to write those parts of applications in a different language.</p>
+
+  <p>
+  Ur/Web is currently the most performant framework on <a href="https://www.techempower.com/benchmarks/#section=data-r12&hw=peak&test=fortune">Techempower's "Fortunes" benchmark</a>.
+
+  </p>
+
+  <h3>Metaprogramming</h3>
+
+  <p>
+    Ur supports a powerful kind of metaprogramming based on row types.
+  </p>
+  <p>
+    This makes it possible to build significant application pieces by analysis of type structure. For instance, the demo includes an ML-style functor for building an admin interface for an arbitrary SQL table. The type system guarantees that the admin interface sub-application that comes out will always be free of the above-listed bugs, no matter which well-typed table description is given as input.
+  </p>
+
+  <h2>Is it ready for production?</h2>
+
+  <p>Yes</p>
+</div>

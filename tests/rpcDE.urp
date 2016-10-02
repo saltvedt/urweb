@@ -1,5 +1,0 @@
-debug
-sql rpcDE.sql
-database dbname=rpcde
-
-rpcDE

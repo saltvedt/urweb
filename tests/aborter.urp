@@ -1,4 +1,0 @@
-database dbname=aborter
-sql aborter.sql
-
-aborter

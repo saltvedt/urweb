@@ -1,6 +1,0 @@
-database dbname=DynChannel.db
-sql DynChannel.sql
-debug
-
-$/list
-DynChannel

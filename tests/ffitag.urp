@@ -1,4 +1,0 @@
-ffi tagffi
-rewrite all Ffitag/*
-
-ffitag

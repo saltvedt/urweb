@@ -1,5 +1,0 @@
-rewrite all ContentDisposition/*
-allow responseHeader Content-Disposition
-allow mime text/plain
-
-contentDisposition

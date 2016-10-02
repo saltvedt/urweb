@@ -1,6 +1,0 @@
-ffi ffi_eff
-jsFunc Ffi_eff.shout=alert
-jsFunc Ffi_eff.sneakyShout=alert
-rewrite all Ffieff/*
-
-ffieff

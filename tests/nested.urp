@@ -1,5 +1,0 @@
-debug
-database dbname=nested
-sql nested.sql
-
-nested

@@ -1,4 +1,0 @@
-ffi transactional
-include transactional.h
-link transactional.o
-effectful Transactional.foo

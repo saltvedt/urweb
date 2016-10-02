@@ -1,4 +1,0 @@
-rewrite all DynClass/*
-allow url http://adam.chlipala.net/*
-
-dynClass
